@@ -7,7 +7,7 @@ public class PlayerShootBehaviour : MonoBehaviour
     [SerializeField]
     private BulletEmitterBehaviour _bulletEmitter;
     [SerializeField]
-    private float _shotSpeed;
+    private float _shotSpeed = 0;
 
     // Update is called once per frame
     void Update()

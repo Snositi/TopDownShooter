@@ -6,7 +6,7 @@ public class EnemyAttackBehaviour : MonoBehaviour
 {
     [Tooltip("How much damage this enemy will do to the target it touches.")]
     [SerializeField]
-    private float _damage;
+    private float _damage = 0;
     private EnemyMovementBehaviour _movement;
 
     private void Awake()

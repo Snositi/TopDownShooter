@@ -9,10 +9,10 @@ public class SpawnerBehaviour : MonoBehaviour
     private GameObject _spawnObject;
     [Tooltip("The amount of time in seconds between each spawn.")]
     [SerializeField]
-    private float _timeBetweenSpawns;
+    private float _timeBetweenSpawns = 0;
     [Tooltip("If false, the spawner will stop instantiating clones of the reference.")]
     [SerializeField]
-    private bool _canSpawn;
+    private bool _canSpawn = false;
     [Tooltip("The enemy object's target.")]
     [SerializeField]
     private GameObject _enemyTarget;

@@ -11,7 +11,7 @@ public class BulletBehaviour : MonoBehaviour
     private float _damage;
     [Tooltip("The amount of time it takes for this bullet to despawn after being fired.")]
     [SerializeField]
-    private float _despawnTime;
+    private float _despawnTime = 0;
 
     public Rigidbody Rigidbody
     {

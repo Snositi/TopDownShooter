@@ -6,7 +6,7 @@ public class PlayerMovementBehaviour : MonoBehaviour
 {
     [Tooltip("How fast the player will move.")]
     [SerializeField]
-    private float _moveSpeed;
+    private float _moveSpeed = 0;
     [Tooltip("The current active camera. Used to get mouse position for rotation.")]
     [SerializeField]
     private Camera _camera;
